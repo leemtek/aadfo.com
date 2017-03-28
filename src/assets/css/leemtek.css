@@ -21,3 +21,8 @@
         width: auto;
     }
 }
+
+
+.background-img-6 {
+    background: url("http://htmlcoder.me/preview/the_project/v.1.4/template/images/background-img-6.jpg") 50% 0px no-repeat;
+}
