@@ -1,0 +1,23 @@
+/* ========================================================
+    Logo Adjustments
+======================================================== */
+/* Small devices (tablets, phones less than 767px) */
+.fixed-header-on .header .logo img {
+  max-height: 45px;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 990px) {
+    #logo_img {
+        max-height: 100px;
+        width: auto;
+    }
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+    #logo_img {
+        max-height: 50px;
+        width: auto;
+    }
+}
