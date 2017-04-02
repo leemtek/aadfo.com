@@ -3,18 +3,18 @@ import { Component } from "@angular/core"
 @Component({
     selector: "app-main",
     template: `
-        // Header
+        <!-- Header -->
         <app-header>Loading...</app-header>
 
-        // Content
+        <!-- Content -->
         <router-outlet></router-outlet>
 
-        // Footer
+        <!-- Footer -->
         <app-footer>Loading...</app-footer>
-    `,
+    `, // template
     styles: [`
     
-    `]
+    `] // styles
 })
 export class AppComponent {
 

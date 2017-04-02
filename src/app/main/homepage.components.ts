@@ -593,9 +593,7 @@ import { Component } from "@angular/core";
         </section>
         <!-- section end -->
     `,
-    styles: [`
-    
-    `]
+    styles: [``]
 })
 export class HomepageComponent {
 
