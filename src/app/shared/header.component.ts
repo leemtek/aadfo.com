@@ -12,7 +12,7 @@ import { Component } from "@angular/core";
             <div class="header-top dark ">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-6 col-md-9">
+                        <div class="col-xs-3 col-sm-6 col-md-8">
                             <!-- header-top-first start -->
                             <!-- ================ -->
                             <div class="header-top-first clearfix">
@@ -35,7 +35,7 @@ import { Component } from "@angular/core";
                             </div>
                             <!-- header-top-first end -->
                         </div>
-                        <div class="col-xs-9 col-sm-6 col-md-3">
+                        <div class="col-xs-9 col-sm-6 col-md-4">
 
                             <!-- header-top-second start -->
                             <!-- ================ -->
@@ -98,25 +98,11 @@ import { Component } from "@angular/core";
             <!-- "full-width": mandatory class for the full-width menu layout -->
             <!-- "centered": mandatory class for the centered logo layout -->
             <!-- ================ --> 
-            <header class="header  fixed    clearfix">
+            <header class="header centered fixed    clearfix">
                 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 ">
-                            <!-- header-first start -->
-                            <!-- ================ -->
-                            <div class="header-first clearfix">
-
-                                <!-- logo -->
-                                <div id="logo" class="logo">
-                                    <a href="index.html"><img id="logo_img" src="./assets/images/logo.png" alt="American Academy of Dentofacial Orthopedics" /></a>
-                                </div>
-                                
-                            </div>
-                            <!-- header-first end -->
-
-                        </div>
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                 
                             <!-- header-second start -->
                             <!-- ================ -->
