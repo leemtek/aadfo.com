@@ -44,31 +44,8 @@ import { Component } from "@angular/core";
                                 data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1150;e:Power4.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">American Academy of Dentofacial Orthopedics
-                            </div>
-
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption medium_dark"
-                                data-x="left"
-                                data-y="290"
-                                data-start="750"
-                                data-transform_idle="o:1;"
-                                data-transform_in="y:[100%];sX:1;sY:1;s:850;e:Power4.easeInOut;"
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br> tenetur fugiat dolorum sapiente eligendi...
-                            </div>
-
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption small_dark"
-                                data-x="left"
-                                data-y="410"
-                                data-start="1000"
-                                data-transform_idle="o:1;"
-                                data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;"
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+                                    <img id="logo_hero" src="./assets/images/logo.png" alt="American Academy of Dentofacial Orthopedics" class="img-responsive" />
                             </div>
 
                             </li>
@@ -124,7 +101,10 @@ import { Component } from "@angular/core";
                                 data-transform_in="y:[100%];sX:1;sY:1;s:850;e:Power4.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br> tenetur fugiat dolorum sapiente eligendi...
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+                                    Setting up new standard in providing early diagnosis for <br />
+                                    early prevention and treatment for all orthopedics challenges <br />
+                                    to improve patient outcomes...
                             </div>
 
                             <!-- LAYER NR. 4 -->
@@ -593,7 +573,26 @@ import { Component } from "@angular/core";
         </section>
         <!-- section end -->
     `,
-    styles: [``]
+    styles: [`
+        #logo_hero {
+            width: 600px !important;
+            height: auto !important;
+        }
+
+        @media screen and (max-width: 769px) {
+            #logo_hero {
+                width: 400px !important;
+                height: auto !important;
+            }
+        }
+
+        @media screen and (max-width: 426px) {
+            #logo_hero {
+                width: 225px !important;
+                height: auto !important;
+            }
+        }
+    `]
 })
 export class HomepageComponent {
 
