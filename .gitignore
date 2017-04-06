@@ -43,3 +43,6 @@ Thumbs.db
 
 ## Firebase stuff.
 /functions/node_modules
+
+## Other stuff.
+/html/debug.log
