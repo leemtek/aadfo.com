@@ -133,17 +133,16 @@ import { Component } from "@angular/core";
                                             <!-- Collect the nav links, forms, and other content for toggling -->
                                             <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                                                 <ul class="nav navbar-nav navbar-right">
-                                                    <li><a href="#banner">Home</a></li>
+                                                    <li><a href="/">Home</a></li>
 
                                                     <li class="dropdown">
-														<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+														<a href="/about" class="dropdown-toggle" data-toggle="dropdown">About</a>
 														<ul class="dropdown-menu">
-															<li><a href="#">Mission Statement</a></li>
-															<li><a href="#">Officers & Directors</a></li>
+															<li><a href="/about/mission">Mission Statement</a></li>
+															<li><a href="/about/officers">Officers & Directors</a></li>
 															<li><a href="#">Central Office</a></li>
 															<li><a href="#">Code of Ethics</a></li>
 															<li><a href="#">Bylaws</a></li>
-															<li><a href="#">Watch Our Video</a></li>
                                                             <li><a href="#footer">Contact Us</a></li>
 														</ul>
 													</li>

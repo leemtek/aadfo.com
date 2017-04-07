@@ -13,7 +13,8 @@ import { RouterModule } from '@angular/router';
 import { APP_ROUTES } from "./app.routing";
 
 // Pages
-import { HomepageComponent } from "./main/homepage.components";
+import { HomepageComponent } from "./main/homepage.component";
+import { AboutComponent } from "./main/about.component";
 
 import { EmailComponent } from './email/email.component';
 
@@ -21,7 +22,11 @@ import { EmailComponent } from './email/email.component';
   declarations: [
     AppComponent,
     HeaderComponent, FooterComponent,
+
+    // Main Pages
     HomepageComponent,
+    AboutComponent,
+    
     EmailComponent
   ],
   imports: [
