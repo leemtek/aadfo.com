@@ -15,6 +15,14 @@ import { APP_ROUTES } from "./app.routing";
 // Pages
 import { HomepageComponent } from "./main/homepage.component";
 import { AboutComponent } from "./main/about.component";
+  import { AboutmenuComponent } from "./main/about/aboutmenu.component";
+  import { MissionComponent } from "./main/about/mission.component";
+  import { OfficersComponent } from "./main/about/officers.component";
+  import { ContactComponent } from "./main/about/contact.component";
+import { SponsorsComponent } from "./main/sponsors.component";
+import { ResourcesComponent } from "./main/resources.component";
+  import { ResourcemenuComponent } from "./main/resources/resourcemenu.component";
+  import { LinksComponent } from "./main/resources/links.component";
 
 import { EmailComponent } from './email/email.component';
 
@@ -26,6 +34,14 @@ import { EmailComponent } from './email/email.component';
     // Main Pages
     HomepageComponent,
     AboutComponent,
+      AboutmenuComponent,
+      MissionComponent,
+      OfficersComponent,
+      ContactComponent,
+    SponsorsComponent,
+    ResourcesComponent,
+      ResourcemenuComponent,
+      LinksComponent,
     
     EmailComponent
   ],

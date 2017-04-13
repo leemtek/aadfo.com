@@ -45,9 +45,6 @@ import { Component } from "@angular/core";
                                 <!-- ================ -->
                                 <div class="header-top-dropdown text-right">
                                     <div class="btn-group">
-                                        <a class="btn btn-default btn-sm"><i class="fa fa-shopping-cart pr-10"></i> Store</a>
-                                    </div>
-                                    <div class="btn-group">
                                         <a class="btn btn-default btn-sm"><i class="fa fa-user pr-10"></i> Join</a>
                                     </div>
                                     <div class="btn-group dropdown">
@@ -138,32 +135,18 @@ import { Component } from "@angular/core";
                                                     <li class="dropdown">
 														<a href="/about" class="dropdown-toggle" data-toggle="dropdown">About</a>
 														<ul class="dropdown-menu">
-															<li><a href="/about/mission">Mission Statement</a></li>
-															<li><a href="/about/officers">Officers & Directors</a></li>
-															<li><a href="#">Central Office</a></li>
-															<li><a href="#">Code of Ethics</a></li>
-															<li><a href="#">Bylaws</a></li>
-                                                            <li><a href="#footer">Contact Us</a></li>
+															<li><a routerLink="/about/mission">Mission Statement</a></li>
+															<li><a routerLink="/about/officers">Officers & Directors</a></li>
+                                                            <li><a routerLink="/about/contact">Contact Us</a></li>
 														</ul>
 													</li>
-                                                    
-                                                    <li class="dropdown">
-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events &amp; Meetings</a>
-                                                        <ul class="dropdown-menu">
-															<li><a href="#">Calendar of Events</a></li>
-															<li><a href="#">Listing of Events</a></li>
-														</ul>
-                                                    </li>
 
-                                                    <li><a href="#services">Exhibitors &amp; Sponsors</a></li>
+                                                    <li><a routerLink="/sponsors">Exhibitors &amp; Sponsors</a></li>
 
                                                     <li class="dropdown">
-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
+                                                        <a href="/resources" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
                                                         <ul class="dropdown-menu">
-															<li><a href="#">For Professionals</a></li>
-															<li><a href="#">For Patients</a></li>
-															<li><a href="#">For Board Members</a></li>
-															<li><a href="#">Links</a></li>
+															<li><a href="/resources/links">Links</a></li>
 														</ul>
                                                     </li>
                                                 </ul>
@@ -186,9 +169,7 @@ import { Component } from "@angular/core";
             <!-- header end -->
         </div>
     `,
-    styles: [`
-    
-    `]
+    styles: [``]
 })
 export class HeaderComponent {
 

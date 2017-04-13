@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: "app-about",
+    selector: "app-resources",
     template: `
         <!-- banner start -->
         <!-- ================ -->
@@ -12,7 +12,7 @@ import { Component } from "@angular/core";
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><i class="fa fa-home pr-10"></i><a class="link-dark" href="/">Home</a></li>
-                        <li class="active">About</li>
+                        <li class="active">Resources</li>
                     </ol>
                 </div>
             </div>
@@ -41,29 +41,9 @@ import { Component } from "@angular/core";
                                 <div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
                                     <span class="icon without-bg"><i class="fa fa-diamond"></i></span>
                                     <div class="body">
-                                        <h4 class="title">Mission Statement</h4>
+                                        <h4 class="title">Links</h4>
                                         <p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur.</p>
-                                        <a routerLink="/about/mission">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 ">
-                                <div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-                                    <span class="icon without-bg"><i class="fa fa-connectdevelop"></i></span>
-                                    <div class="body">
-                                        <h4 class="title">Officers &amp; Directors</h4>
-                                        <p>Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
-                                        <a routerLink="/about/officers">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 ">
-                                <div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-                                    <span class="icon without-bg"><i class="fa fa-phone"></i></span>
-                                    <div class="body">
-                                        <h4 class="title">Contact Us</h4>
-                                        <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
-                                        <a routerLink="about/contact">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+                                        <a routerLink="/about/mission">View Page<i class="pl-5 fa fa-angle-double-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -80,6 +60,6 @@ import { Component } from "@angular/core";
     
     `]
 })
-export class AboutComponent {
+export class ResourcesComponent {
 
 } // AboutComponent
